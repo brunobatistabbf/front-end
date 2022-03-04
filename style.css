@@ -1,0 +1,39 @@
+body 
+{
+  padding: 0%;
+  background-color: rgb(233, 233, 233);
+}
+
+.link{
+   text-decoration:none;
+
+}
+.link:hover{
+  text-decoration:underline;
+}
+
+#butao{
+  background-color: rgb(174, 174, 174);
+  border-radius: 4%;
+  border-style: outset;
+  text-shadow: none;
+  border-color: rgb(174, 174, 174);
+  padding: 10px;
+
+}
+
+#butao:hover{
+background-color: rgb(167, 121, 95);
+
+}
+
+#bordacadastro{
+background-color: whitesmoke;
+border-radius:1%;
+border-color: rgb(233, 233, 233);
+margin: 50px;
+height: auto;
+width: 50%;
+
+
+}

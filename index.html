@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scale=no">
+<title>Cadastro</title>
+<link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+
+  <fieldset id="bordacadastro" >
+    <legend>CADASTRO</legend>
+  <form action="cadastro.js" method="post" >
+     <label for="usuario">
+      Nome:<br />
+      <input type="text" required minlength="2"/>    
+      <br/>
+      <br />
+      Sobrenome:<br/>
+      <input type="text" required minlength="2"/> 
+      <br/>
+      <br />
+      Email:<br/>
+      <input type="email" pattern="email" title="Endereço de Email"/>
+      <br/>
+      <br />
+     </label>
+    <br/>
+    <label for="termos">
+    <input type="checkbox" required/>Eu declaro que li e concordo com os <a href="termos.html"  class="link"> Termos de Uso </a>
+    </label>
+   
+    <br/>
+    <br/>
+    <button id="butao">Cadastrar Agora</button>
+
+  </form>
+  </fieldset>
+
+</body>
+</html>
